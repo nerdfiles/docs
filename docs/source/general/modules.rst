@@ -26,5 +26,17 @@ Provider           Module                                                       
 Validation engines
 ------------------
 
+Implement Hypermedia Service Architecture ([HSA][hsa], Hypermedia-first Modeling) such that hypermedia is the engine of application state.
+
 Anchoring media
 ---------------
+
+Implement [Linked Data][ld]. 
+
+<blockquote><p>While the ODRL Information Model is built using Linked Data principles, the design is intended to allow non-graph-based implementations.</p><sup>1</sup></blockquote>
+
+____
+<sup>1</sup> https://w3c.github.io/poe/model/#aimsModel
+
+[hsa]: http://www.amundsen.com/talks/2016-04-sacon-patterns/2016-04-sacon-patterns.pdf
+[ld]: https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/topics-and-advance-readings/blockchain-extensions-for-linked-data-signatures.md#blockchain-anchoring
